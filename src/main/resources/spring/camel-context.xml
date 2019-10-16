@@ -58,7 +58,7 @@
                 <constant>Define</constant>
             </setHeader>
             <to id="_to1" uri="cxf:bean:dictionaryLookupClient"/>
-            <marshal id="_marshal1" ref="jack"/>
+            <!--<marshal id="_marshal1" ref="jack"/>-->
             <marshal id="_marshal2" ref="xmljson"/>
             <removeHeaders id="_removeHeaders2" pattern="*"/>
         </route>
